@@ -10,22 +10,23 @@ html{font-size: 62.5%;}
 
 body {
     background-image: linear-gradient(to bottom right , #03045e , #0077b6 , #00b4d8 , #90e0ef , #caf0f8);
+    background-repeat: no-repeat;
   }
 
 #box{margin: 0 auto;
     text-align: center;
 font-family: cursive;
 margin-top: 25%;
-border-radius: 20px;
+border-radius: 2rem;
 font-size: 5rem;
 background-color: white;
-height: 200px;
-padding: 15px;
-width: 500px;}
+height: 20rem;
+padding: 1.5rem;
+width: 50rem;}
 
-button{padding: 8px;
+button{padding: 0.8rem;
     border: 0;
-    border-radius: 20px;
+    border-radius: 2rem;
     font-family: cursive;
 font-size: 3rem;
 color: white;
@@ -44,3 +45,13 @@ cursor: pointer;
 
 
 #plus:hover{background-color: #009432;}
+
+
+
+@media(max-width:998px){
+    html{font-size: 55%;}
+}
+
+@media(max-width:786px){
+    html{font-size: 45%;}
+}
